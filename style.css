@@ -1,0 +1,46 @@
+*{
+	font-family: Segoe UI;
+}
+.container{
+	background-color: #f5f5f5;
+	width: 60%;
+	padding: 40px;
+	font-size: 15px;
+}
+.message1{
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 0px;
+}
+.message2{
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px 0px;
+}
+.message__user_name{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.user__name_time{
+	color: #9a9895;
+	font-size: 12px;
+}
+.message__user{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.message__text{
+	display: flex;
+	background-color: #ffb6c1;
+	width: 30%;
+	border-radius: 30px 30px 30px 0px;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+}
+.message__text_modefy{
+	background-color: #add8e6;
+	border-radius: 30px 30px 0px 30px;
+}
